@@ -39,12 +39,12 @@ Output:
 
 
 Scale for d dorian: ['d', 'e', 'f', 'g', 'a', 'b', 'c', 'd']
-Requirements
+## Requirements
 Python 3.x
-How It Works
+## How It Works
 The script calculates the scale based on the starting root note and mode. It uses predefined patterns of intervals (whole steps and half steps) to construct the scale.
 
-Scale Construction
+## Scale Construction
 The pattern of intervals for the modes is:
 
 Ionian (Major): 2, 2, 1, 2, 2, 2, 1
@@ -56,5 +56,5 @@ Aeolian (Minor): 2, 1, 2, 2, 1, 2, 2
 Locrian: 1, 2, 2, 1, 2, 2, 2
 The root note and mode are used to determine the starting point in the list of root notes, and the scale is constructed by applying the interval pattern.
 
-License
+## License
 This script is licensed under the MIT License.

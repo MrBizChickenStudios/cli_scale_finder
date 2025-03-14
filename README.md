@@ -1,15 +1,15 @@
 # Musical Scale Generator
 This script generates a musical scale based on a specified root note and mode. It uses the argparse module to accept command-line arguments for the root note and musical mode. It then calculates and prints the corresponding scale for the given root and mode.
 
-Features
+## Features
 Accepts two arguments: root note and mode.
 Supports a variety of root notes and musical modes.
 Prints the generated scale for the given root note and mode.
-Supported Root Notes
+## Supported Root Notes
 The root notes you can use are:
 
 c, c#, d, d#, e, f, f#, g, g#, a, a#, b
-Supported Modes
+## Supported Modes
 The modes you can use are:
 
 ionian (major)
@@ -19,30 +19,25 @@ lydian
 mixolydian
 aeolian (minor)
 locrian
-How to Use
-Command-Line Arguments
+## How to Use
+### Command-Line Arguments
 -r or --root: Specify the root note (e.g., "c", "d#", "f").
 -m or --mode: Specify the mode (e.g., "ionian", "dorian").
 Example Usage
-To generate a C major scale (Ionian mode):
+## To generate a C major scale (Ionian mode):
 
-bash
-Copy
-python script.py -r c -m ionian
+
+        python script.py -r c -m ionian
 Output:
 
-less
-Copy
 Scale for c ionian: ['c', 'd', 'e', 'f', 'g', 'a', 'b', 'c']
-To generate a Dorian scale starting at D:
+## To generate a Dorian scale starting at D:
 
-bash
-Copy
-python script.py -r d -m dorian
+
+        python script.py -r d -m dorian
 Output:
 
-less
-Copy
+
 Scale for d dorian: ['d', 'e', 'f', 'g', 'a', 'b', 'c', 'd']
 Requirements
 Python 3.x

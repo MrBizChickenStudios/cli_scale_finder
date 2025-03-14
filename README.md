@@ -1,4 +1,4 @@
-Musical Scale Generator
+# Musical Scale Generator
 This script generates a musical scale based on a specified root note and mode. It uses the argparse module to accept command-line arguments for the root note and musical mode. It then calculates and prints the corresponding scale for the given root and mode.
 
 Features

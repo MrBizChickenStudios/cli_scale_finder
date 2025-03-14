@@ -27,14 +27,14 @@ Example Usage
 ## To generate a C major scale (Ionian mode):
 
 
-`python script.py -r c -m ionian`
+```python script.py -r c -m ionian```
 Output:
 
 Scale for c ionian: ['c', 'd', 'e', 'f', 'g', 'a', 'b', 'c']
 ## To generate a Dorian scale starting at D:
 
 
-`python script.py -r d -m dorian`
+```python script.py -r d -m dorian```
 Output:
 
 
